@@ -1,3 +1,3 @@
 # Algorithm
-language : c++
+language : c++<br>
 site : BOJ(https://www.acmicpc.net/)
