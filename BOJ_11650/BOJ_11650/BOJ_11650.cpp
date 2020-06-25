@@ -7,7 +7,7 @@
 #include <algorithm>
 
 //!< 좌표 정렬하기
-//!< 목표 15분 : 결과 10분 35초 : 20.06.25 - 1트 : 10814번 문제와 유사하며 이번엔 multimap이 아닌 vector의 sort를 커스터마이징하여 풀었다.
+//!< 목표 15분 : 결과 10분 35초 : 20.06.25 - 1트 : 10814번 문제와 유사하다. 이번엔 multimap이 아닌 vector컨테이너 타입으로 pair를 사용하여, sort를 커스텀해서 품.
 using namespace std;
 
 bool compare( pair<int, int> a, pair<int, int> b )
