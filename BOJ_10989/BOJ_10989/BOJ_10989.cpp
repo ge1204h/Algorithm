@@ -13,7 +13,7 @@ int main()
 {
 	//!< cin, cout은 scanf, printf보다 속도가 느리기 때문에 시간초과가 난다.
 	//!< 따라서 sync_with_stdio을 사용하여 실행속도를 향상시킨다. : C 표준 stream과 C++ 표준 stream의 동기화를 끊음. 동기화를 끊으면 사용하는 버퍼의 수가 줄어들어 속도는 향상. 하지만 thread의 싱크가  unsafe 해지므로 예상치못한 순서의 입출력이 나올수 있으며, thread가 여러개인 환경에서는 위험하다.
-	//!< tie : cin과 cout을 untie한다. 사용하지 않아도 
+	//!< tie : cin과 cout을 untie한다. C표준 입출력과 혼용해서 사용하면 안됨!
 	ios_base::sync_with_stdio( false );
 	cin.tie( NULL );
 	cout.tie( NULL );
