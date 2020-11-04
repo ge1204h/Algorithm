@@ -11,13 +11,9 @@ using namespace std;
 int main()
 {
 	int a, b, c;
-	int price = 0;
-	int sellPrice = 0;
 	int count = 0;
 
 	cin >> a >> b >> c;
-
-	price = a;
 
 	if (b >= c)
 		count = -1;
