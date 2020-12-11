@@ -5,7 +5,7 @@
 #include <vector>
 #include <algorithm>
 
-//!< 목표 25분 / 결과 10분 : 20.12.11
+//!< 목표 25분 / 결과 10분 :20.12.11
 using namespace std;
 int main()
 {
