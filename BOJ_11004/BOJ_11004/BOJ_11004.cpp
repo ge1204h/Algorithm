@@ -5,6 +5,7 @@
 #include <vector>
 #include <algorithm>
 
+//<! K번째 수
 //!< 목표 25분 / 결과 10분 :20.12.11
 using namespace std;
 int main()
