@@ -3,6 +3,7 @@
 
 #include <iostream>
 
+//!< 평균은 넘겠지
 //!< 목표 10분 : 결과 6분 40초 : 21.01.09
 using namespace std;
 int main()
