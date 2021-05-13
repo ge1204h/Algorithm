@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 
+//!< 상수
 using namespace std;
 int main()
 {
