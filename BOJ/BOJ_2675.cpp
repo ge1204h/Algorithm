@@ -5,6 +5,7 @@
 #include <iostream>
 #include <string>
 
+//!< 문자열 반복
 using namespace std;
 int main()
 {
