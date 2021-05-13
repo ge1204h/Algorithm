@@ -4,7 +4,8 @@
 #include <iostream>
 #include <string>
 
-//!< 단어공부 : 목표 10분 : 결과 6분
+//!< 단어공부
+//!< 목표 10분 : 결과 6분
 using namespace std;
 int main()
 {
